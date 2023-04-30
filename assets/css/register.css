@@ -1,0 +1,142 @@
+/* Default Rules Of WebSite */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto&family=Rubik:wght@500&display=swap');
+
+* {
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+/* Colors of project  */
+:root {
+    --primary-color: #FF441F;
+    --secondary-color: hsl(38, 8%, 8%);
+    --white-color: #fafafa;
+    --font-size: 16px;
+}
+
+/* Main container */
+.mainSectionContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header section */
+.headerContainer {
+    display: block;
+    margin: 20px;
+}
+
+.headerContent img {
+    display: block;
+    margin: 0 auto;
+}
+
+.headerContent span {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Form Login section */
+
+.loginContainer {
+    display: block;
+    margin: 20px;
+}
+
+.loginContent {
+    text-align: center;
+}
+
+.loginContent input {
+    font-weight: bold;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    background: transparent;
+    border: none;
+    width: 65%;
+    height: auto;
+    padding: 15px;
+}
+
+.buttonContent {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContent button {
+    margin: 5px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border: none;
+    width: 68%;
+    margin: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white-color);
+}
+
+/* Form Register section */
+
+.registerContainer {
+    display: block;
+    margin: 20px;
+}
+
+.registerContent {
+    text-align: center;
+}
+
+.registerContent input {
+    font-weight: bold;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    background: transparent;
+    border: none;
+    width: 65%;
+    height: auto;
+    padding: 15px;
+}
+
+.buttonContent {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContent button {
+    margin: 5px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border: none;
+    width: 68%;
+    margin: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white-color);
+}
+
+.registerContent button {
+    margin: 5px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border: none;
+    width: 68%;
+    margin: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white-color);
+}
